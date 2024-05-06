@@ -1,0 +1,25 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            text-align: center;
+            margin-top: 50px;
+        }
+        form {
+            display: inline-block;
+            margin: 10px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: aqua;
+            border: none;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: green;
+        }
+  

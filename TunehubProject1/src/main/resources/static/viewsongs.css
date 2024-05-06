@@ -1,0 +1,26 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: grey;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: thik black;
+        }
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #007bff;
+            color: black;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        audio {
+            width: 100%;
+        }
+    
